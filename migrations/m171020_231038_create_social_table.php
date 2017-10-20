@@ -18,6 +18,7 @@ class m171020_231038_create_social_table extends Migration
             $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';
         }
 
+
         $this->createTable('social', [
             'id' => $this->primaryKey(),
             'pagekey'=>$this->integer(),
