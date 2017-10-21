@@ -53,6 +53,8 @@ class m171020_231038_create_social_table extends Migration
             'classmates'=>$this->text()->null(),
             'googleplay'=>$this->text()->null(),
             'appstore'=>$this->text()->null(),
+            'mail'=>$this->text()->null(),
+            'kakao'=>$this->text()->null(),
 //            'googleplay'=>$this->text()->null(),
 //            'googleplay'=>$this->text()->null(),
 //            'googleplay'=>$this->text()->null(),
