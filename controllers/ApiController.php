@@ -207,7 +207,7 @@ return ['is'=>$is ];
      */
     private  function  is_linkedin($link){
 
-        if (strpos($link, 'www.linkedin.com') !== false) {
+        if (strpos($link, 'linkedin.com') !== false) {
             return true;
         }
         return false;
@@ -296,13 +296,13 @@ return ['is'=>$is ];
     }
 
     /**
-     * //link:https://www.reddit.com/r/HedgeToken/
+     * //link:https://www.reddit.com/r/HedgeToken/  http://reddit.com/r/omise_go
      * @param $link
      * return +-
      */
     private  function  is_redit($link){
 
-        if (strpos($link, 'www.reddit.com') !== false) {
+        if (strpos($link, 'reddit.com') !== false) {
             return true;
         }
         return false;
